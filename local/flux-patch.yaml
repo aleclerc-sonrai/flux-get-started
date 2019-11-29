@@ -11,8 +11,8 @@ metadata:
 spec:
   template:
     spec:
-      $setElementOrder/initContainers:
-      - name: init
-      initContainers:
-      - image: alpine:3
-        name: init
+      $setElementOrder/containers:
+      - name: podinfod
+      containers:
+      - image: stefanprodan/podinfo:1.4.4
+        name: podinfod
