@@ -2,5 +2,5 @@
 version: 1
 patchUpdated:
   generators:
-    - command: run_orgs.sh
+    - command: ./run_orgs.sh
   patchFile: flux-patch.yaml
