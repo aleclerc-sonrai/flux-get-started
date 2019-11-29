@@ -5,7 +5,7 @@ resources:
 - podinfo-hpa.yaml
 - podinfo-svc.yaml
 - demo.yaml
-- mongodb.yaml
-- ghost.yaml
-- redis.yaml
-- redis-auth.yaml
+# - mongodb.yaml
+# - ghost.yaml
+# - redis.yaml
+# - redis-auth.yaml

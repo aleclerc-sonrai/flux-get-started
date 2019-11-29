@@ -2,6 +2,5 @@
 version: 1
 patchUpdated:
   generators:
-    - command: kustomize build .
-    - command: 
+    - command: run_orgs.sh
   patchFile: flux-patch.yaml
