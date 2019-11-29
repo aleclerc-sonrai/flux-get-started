@@ -8,11 +8,3 @@ metadata:
     flux.weave.works/tag.podinfod: semver:~1.4
   name: alice-podinfo
   namespace: demo
-spec:
-  template:
-    spec:
-      $setElementOrder/initContainers:
-      - name: init
-      initContainers:
-      - image: alpine:3
-        name: init
